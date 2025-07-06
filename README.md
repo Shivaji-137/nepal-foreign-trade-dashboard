@@ -20,21 +20,21 @@ This dashboard provides in-depth analysis of Nepal's foreign trade patterns, inc
 
 ### Core Dashboard Files
 
-| File | Description |
-|------|-------------|
-| `dashboard.py` | Main entry point with professional styling and 6 navigation tabs |
-| `summary_dashboard.py` | Trade balance summary with KPIs and metric definitions |
-| `product_dashboard.py` | Top 10 products analysis and product search functionality |
-| `countries_dashboard.py` | Trade partner countries analysis and country-specific insights |
-| `commodity_dashboard.py` | Detailed commodity import/export analysis with filtering |
-| `customoffice_dashboard.py` | Custom offices trade analysis and performance metrics |
-| `commoditywithcountry.py` | Commodity-country relationship analysis and cross-referencing |
+| File                          | Description                                                      |
+| ----------------------------- | ---------------------------------------------------------------- |
+| `dashboard.py`              | Main entry point with professional styling and 6 navigation tabs |
+| `summary_dashboard.py`      | Trade balance summary with KPIs and metric definitions           |
+| `product_dashboard.py`      | Top 10 products analysis and product search functionality        |
+| `countries_dashboard.py`    | Trade partner countries analysis and country-specific insights   |
+| `commodity_dashboard.py`    | Detailed commodity import/export analysis with filtering         |
+| `customoffice_dashboard.py` | Custom offices trade analysis and performance metrics            |
+| `commoditywithcountry.py`   | Commodity-country relationship analysis and cross-referencing    |
 
 ### Utility Files
 
-| File | Description |
-|------|-------------|
-| `utils.py` | Data loading, processing, formatting, and utility functions |
+| File                 | Description                                                   |
+| -------------------- | ------------------------------------------------------------- |
+| `utils.py`         | Data loading, processing, formatting, and utility functions   |
 | `visualization.py` | Plotly chart generation functions and visualization utilities |
 
 ### Data Organization
@@ -57,13 +57,13 @@ data/
 
 These folders contain data processing scripts that analyze raw trade data and generate filtered datasets saved to the `filtered_data/` folder:
 
-| Folder | Description | Output to filtered_data/ |
-|--------|-------------|---------------------------|
-| `trade_balance_by_chapter/` | Chapter-wise trade balance analysis scripts | Chapter-classified trade data |
-| `trade_by_commodity&countries/` | Commodity-country cross-analysis tools | `impexp_countrydata.xlsx` |
-| `trade_by_countries/` | Country-specific trade analysis utilities | Country-aggregated trade statistics |
-| `trade_description_summary/` | Trade description processing and summarization | `trade_2071_082.xlsx`, `trad_Percechange2072_to_82.xlsx` |
-| `customoffice_trade/` | Custom office data processing scripts | `customoffice_trade_allyr.xlsx` |
+| Folder                            | Description                                    | Output to filtered_data/                                     |
+| --------------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| `trade_balance_by_chapter/`     | Chapter-wise trade balance analysis scripts    | Chapter-classified trade data                                |
+| `trade_by_commodity&countries/` | Commodity-country cross-analysis tools         | `impexp_countrydata.xlsx`                                  |
+| `trade_by_countries/`           | Country-specific trade analysis utilities      | Country-aggregated trade statistics                          |
+| `trade_description_summary/`    | Trade description processing and summarization | `trade_2071_082.xlsx`, `trad_Percechange2072_to_82.xlsx` |
+| `customoffice_trade/`           | Custom office data processing scripts          | `customoffice_trade_allyr.xlsx`                            |
 
 ## 🛠️ Technical Implementation
 
@@ -77,57 +77,64 @@ These folders contain data processing scripts that analyze raw trade data and ge
 ## 🔧 Installation & Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd nepal-trade-dashboard
    ```
-
 2. **Install dependencies**
+
    ```bash
    pip install streamlit pandas plotly openpyxl
    ```
-
 3. **Run the dashboard**
+
    ```bash
    streamlit run dashboard.py
    ```
-
 4. **Access the dashboard**
+
    - Open your browser and go to `http://localhost:8501`
 
 ## 📈 Dashboard Sections
 
 ### 1. Trade Balance Summary
+
 - Overall trade performance with KPI cards
 - Interactive time series charts with growth rates
 - Fiscal year range filtering (BS/AD formats)
 - Comprehensive metric definitions and explanations
 
 ### 2. Trade by Products
+
 - Top 10 traded products analysis
 - Product search with historical trends
 - Treemap and bar chart visualizations
 - Detailed product performance metrics
 
 ### 3. Trade by Countries
+
 - Partner countries trade analysis
 - Country-specific import/export trends
 - Trade balance calculations by country
 - Geographic trade pattern insights
 
 ### 4. Trade by Commodities
+
 - Detailed commodity analysis with unit filtering
 - Import/export value and quantity comparisons
 - Revenue share calculations
 - Year-over-year growth analysis
 
 ### 5. Trade by Custom Offices
+
 - Custom office performance metrics
 - Import/export share analysis
 - Geographic distribution of trade activities
 - Office-wise trade balance tracking
 
 ### 6. Commodity-Country Analysis
+
 - Cross-referencing commodities with trading partners
 - Bilateral trade relationship insights
 - Product-specific country performance
@@ -136,7 +143,7 @@ These folders contain data processing scripts that analyze raw trade data and ge
 ## 📊 Key Metrics & Definitions
 
 - **Imports**: Total value of goods/services bought from abroad
-- **Exports**: Total value of goods/services sold to foreign markets  
+- **Exports**: Total value of goods/services sold to foreign markets
 - **Trade Deficit**: Difference between imports and exports (Imports - Exports)
 - **Trade Balance**: Net trade position (Exports - Imports)
 - **Total Trade**: Sum of imports and exports
@@ -171,8 +178,8 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## 📧 Contact
 
-**Developer**: Shivaji Chaulagain  
-**Email**: [Your Email]  
+**Developer**: Shivaji Chaulagain
+**Email**: [Shivajichaulagain@gmail.com]
 **Year**: 2025
 
 ## 📄 License
