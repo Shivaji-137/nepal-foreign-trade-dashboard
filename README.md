@@ -2,6 +2,12 @@
 
 A comprehensive Streamlit-based analytics dashboard for visualizing and analyzing Nepal's international trade data from fiscal year 2071/72 to 2081/82 (Bikram Sambat).
 
+## 🌐 Live Application
+
+**🚀 [View Live Dashboard](https://nepal-foreign-trade-dashboard.streamlit.app/)**
+
+Access the interactive dashboard directly in your browser - no installation required!
+
 ## 📊 Overview
 
 This dashboard provides in-depth analysis of Nepal's foreign trade patterns, including imports, exports, trade balance, and growth trends. It features interactive visualizations, detailed metric definitions, and multi-dimensional analysis capabilities.
